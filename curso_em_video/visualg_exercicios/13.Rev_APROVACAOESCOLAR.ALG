@@ -19,7 +19,7 @@ Inicio
          Escreval("ALUNO APROVADO")    // Apartir daqui pra baixo eu vacilei no uso da condicional composta:
          Escreva("---------------------")
       Senao // Aqui 'SENAO' cairia duas linhas abaixo
-         Escreval("---------------------") // Caso eu tivesse seguido com a mesma solu��o do professor, estas duas linhas j� seriam perfeitamente descartadas, j� que no meu uso s� serviu pra tentar manter o mesmo jogo visual do 'SE' que foi usado linhas antes erroneamente no c�digo
+         Escreval("---------------------") // Caso eu tivesse seguido com a mesma solu��o do professor, estas duas linhas j� teriam sido perfeitamente descartadas, j� que no meu uso s� serviu pra tentar manter o mesmo jogo visual do 'SE' que foi usado linhas antes erroneamente no c�digo
          Escreval("M�DIA: ",media:3:1) // 2.linha desnc.
          Escreval("ALUNO REPROVADO") // 'SENAO' cairia pra essa linha
          Escreva("---------------------") // Aqui a ordem seria "FIMSE" e depois 'Escreva("---------------------")'
