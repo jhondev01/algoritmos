@@ -13,19 +13,19 @@ Inicio
       Escreval("Segunda Nota:")
       Leia(N2)
       media <- (N1 + N2) / 2
-      Se (media >=7) entao // primeira gafe. Eu poderia usar a condicional 'SE' depois do bloco/ quadro da nota abaixo, evitando a repetição desnecessária da msm linha de código seguinte:
+      Se (media >=7) entao // primeira gafe. Eu poderia usar a condicional 'SE' depois do bloco/ quadro da nota abaixo, evitando a repetiï¿½ï¿½o desnecessï¿½ria da msm linha de cï¿½digo seguinte:
          Escreval("---------------------")
-         Escreval("MÉDIA: ",media:3:1) // Aqui sim seria interessante o uso de condicional 'SE'.
+         Escreval("Mï¿½DIA: ",media:3:1) // Aqui sim seria interessante o uso de condicional 'SE'.
          Escreval("ALUNO APROVADO")    // Apartir daqui pra baixo eu vacilei no uso da condicional composta:
          Escreva("---------------------")
       Senao // Aqui 'SENAO' cairia duas linhas abaixo
-         Escreval("---------------------") // Caso eu tivesse seguido com a mesma solução do professor, estas duas linhas já serião perfeitamente descartadas, já que no meu uso só serviu pra tentar manter o mesmo jogo visual do 'SE' que foi usado linhas antes erroneamente no código
-         Escreval("MÉDIA: ",media:3:1) // 2.linha desnc.
+         Escreval("---------------------") // Caso eu tivesse seguido com a mesma soluï¿½ï¿½o do professor, estas duas linhas jï¿½ seriam perfeitamente descartadas, jï¿½ que no meu uso sï¿½ serviu pra tentar manter o mesmo jogo visual do 'SE' que foi usado linhas antes erroneamente no cï¿½digo
+         Escreval("Mï¿½DIA: ",media:3:1) // 2.linha desnc.
          Escreval("ALUNO REPROVADO") // 'SENAO' cairia pra essa linha
          Escreva("---------------------") // Aqui a ordem seria "FIMSE" e depois 'Escreva("---------------------")'
       FimSe
 
-   //Apesar dos erros meu algoritmo rodou tranquilo kkkk abaixo a versão do professor Guanabara:
+   //Apesar dos erros meu algoritmo rodou tranquilo kkkk abaixo a versï¿½o do professor Guanabara:
 
 Fimalgoritmo
 
