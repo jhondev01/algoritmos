@@ -1,0 +1,31 @@
+Algoritmo "C.Intelg.Rev"
+// Data atual  : 30/06/2025
+Var
+   in, fi, prog: inteiro
+
+
+Inicio
+      Escreval ("Digite o número de inicio: ")
+      leia(in)
+      Escreval("Digite o número do fim da contagem: ")
+      leia(fi)
+      Se (in < fi) entao
+         prog <- in
+         Escreval ("---CONTANDO---")
+         Enquanto (prog <= fi) faca
+            Escreva (prog, "... ")
+            prog <- prog + 1
+         FimEnquanto
+           Senao
+                prog <- in
+                Escreval ("---CONTANDO---")
+                Enquanto (prog >= fi) faca
+                  Escreva( prog, "... ")
+                  prog <- prog - 1
+           FimEnquanto
+        FimSe
+
+      
+
+
+Fimalgoritmo
